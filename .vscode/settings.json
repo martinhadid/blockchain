@@ -1,0 +1,27 @@
+{
+    "python.pythonPath": "python3",
+    "editor.rulers": [
+        80
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402",
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=100"
+    ],
+    "python.formatting.blackArgs": [],
+    "python.formatting.yapfArgs": [],
+}
